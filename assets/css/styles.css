@@ -11005,16 +11005,6 @@ section.resume-section .resume-section-content {
   font-weight: 900;
 }
 
-.card-ele{
-  padding: 1.5em .5em .5em;
-  border-radius: 2em;
-  text-align: center;
-  box-shadow: 0 5px 10px rgba(0,0,0,.2);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .btn-ele{
   border-radius:2em;
   background-color: #6c757d;
@@ -11023,7 +11013,12 @@ section.resume-section .resume-section-content {
 }
 
 .btn-ele:hover {
-background-color: #0dfa8f;
-color: #ffffff;
-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: #0dfa8f;
+  color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.footer-ele {
+  background-color: #0dfa8f;
+  font-size: 0.8rem;
 }
